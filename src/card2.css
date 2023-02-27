@@ -1,0 +1,376 @@
+
+.box{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* flex-wrap: wrap; */
+    cursor: pointer;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+    0 17px 17px 0 rgba(0, 0, 0, 0.15);
+    /* flex-direction: row; */
+}
+
+.box .one{
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 300px;
+    width: 24%;
+    margin: 1vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: rgb(236, 236, 230);
+}
+
+.box .one .fir{
+    display: flex;
+    /* flex: 0 0 100%; */
+    height: 50%;
+    width: 100%;
+    flex-direction: row;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    background: rgb(236, 236, 230);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box .one .fir .negative {
+    color: red;
+  }
+  
+  .box .one .fir .positive {
+    color: green;
+  }
+
+.box .one .sec{
+    display: flex;
+    /* flex: 0 0 100%; */
+    height: 50%;
+    width: 100%;
+    flex-direction: row;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    background: rgb(236, 236, 230);
+    flex-wrap: nowrap;
+}
+
+.box .one .sec .ek{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    /* height:  */
+    background: rgb(236, 236, 230);
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.box .one .sec .dho{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    /* height:  */
+    background: rgb(236, 236, 230);
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box .one .sec .negative {
+    color: red;
+  }
+  
+  .box .one .sec .positive {
+    color: green;
+  }
+
+.box .one .sec .dho p {
+    margin: 0; /* add margin: 0 to remove space above and below text */
+}
+
+.box .two{
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 300px;
+    width: 24%;
+    margin: 1vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: rgb(236, 236, 230);
+}
+
+.box .two .fir{
+    display: flex;
+    /* flex: 0 0 100%; */
+    height: 50%;
+    width: 100%;
+    flex-direction: row;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    background: rgb(236, 236, 230);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box .two .fir .negative {
+    color: red;
+  }
+  
+  .box .two .fir .positive {
+    color: green;
+  }
+
+
+.box .two .sec{
+    display: flex;
+    /* flex: 0 0 100%; */
+    height: 50%;
+    width: 100%;
+    flex-direction: row;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    background: rgb(236, 236, 230);
+    flex-wrap: nowrap;
+}
+
+
+.box .two .sec .ek{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    /* height:  */
+    background: rgb(236, 236, 230);
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.box .two .sec .dho{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    /* height:  */
+    background: rgb(236, 236, 230);
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.box .two .sec .dho .negative {
+    color: red;
+  }
+  
+  .box .two .sec .dho .positive {
+    color: green;
+  }
+
+
+
+
+
+.box .three{
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 300px;
+    width: 24%;
+    margin: 1vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: rgb(236, 236, 230);
+}
+
+
+.box .three .fir{
+    display: flex;
+    /* flex: 0 0 100%; */
+    height: 50%;
+    width: 100%;
+    flex-direction: row;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    background: rgb(236, 236, 230);
+    font-size: 30px;
+    font-weight: bold;
+}
+.box .three .fir .negative {
+    color: red;
+  }
+  
+  .box .three .fir .positive {
+    color: green;
+  }
+
+.box .three .sec{
+    display: flex;
+    /* flex: 0 0 100%; */
+    height: 50%;
+    width: 100%;
+    flex-direction: row;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    background: rgb(236, 236, 230);
+    flex-wrap: nowrap;
+}
+
+
+.box .three .sec .ek{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    /* height:  */
+    background: rgb(236, 236, 230);
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.box .three .sec .dho{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    /* height:  */
+    background: rgb(236, 236, 230);
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box .three .sec .dho .negative {
+    color: red;
+  }
+  
+  .box .three .sec .dho .positive {
+    color: green;
+  }
+
+
+
+  .box .four{
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 300px;
+    width: 24%;
+    margin: 1vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: rgb(236, 236, 230);
+}
+
+
+.box .four .fir{
+    display: flex;
+    /* flex: 0 0 100%; */
+    height: 50%;
+    width: 100%;
+    flex-direction: row;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    background: rgb(236, 236, 230);
+    font-size: 30px;
+    font-weight: bold;
+}
+.box .four .fir .negative {
+    color: red;
+  }
+  
+  .box .four .fir .positive {
+    color: green;
+  }
+
+.box .four .sec{
+    display: flex;
+    /* flex: 0 0 100%; */
+    height: 50%;
+    width: 100%;
+    flex-direction: row;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    background: rgb(236, 236, 230);
+    flex-wrap: nowrap;
+}
+
+
+.box .four .sec .ek{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    /* height:  */
+    background: rgb(236, 236, 230);
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.box .four .sec .dho{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    /* height:  */
+    background: rgb(236, 236, 230);
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box .four .sec .dho .negative {
+    color: red;
+  }
+  
+  .box .four .sec .dho .positive {
+    color: green;
+  }
+
+
+
+

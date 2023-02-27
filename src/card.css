@@ -1,0 +1,411 @@
+
+.box{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* flex-wrap: wrap; */
+    cursor: pointer;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+    0 17px 17px 0 rgba(0, 0, 0, 0.15);
+    flex-direction: row;
+}
+
+.box .one{
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 300px;
+    width: 30%;
+    margin: 1vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: rgb(236, 236, 230);
+}
+
+.box .one .fir{
+    display: flex;
+    height: 150px;
+    flex : 0 0 50%;
+    /* background-color: brown; */
+    width: 33.3vw;
+    margin-right: 1vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box .one .sec{
+    display: flex;
+    height: 150px;
+    flex : 0 0 50%;
+    /* background-color: rgb(161, 4, 30); */
+    width: 33.3vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box .one .fir .ek {
+    display: flex;
+    flex: 0 0 50%;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+    margin-left: 10vw;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    margin-left: 2px;
+  }
+  
+  .box .one .fir .ek.negative {
+    color: red;
+  }
+  
+  .box .one .fir .ek.positive {
+    color: green;
+  }
+  
+
+.box .one .fir .ek p{
+margin : 0;
+}
+
+.box .one .fir .dho{
+    display: flex;
+    flex : 0 0 50%;
+    height: 50%;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    margin: 2vh;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.box .one .fir .dho::before{
+    display: flex;
+    content: "•••";
+    flex : 0 0 50%;
+    height: 50%;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    margin: 2vh;
+    align-items: center;
+    margin-left: 2px;
+}
+  
+
+.box .one .sec .teen{
+    display: flex;
+    flex : 0 0 50%;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+    /* margin-left: 1vw; */
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    /* margin-left: 2px; */
+    
+}
+
+.box .one .sec .chaar{
+    display: flex;
+    flex : 0 0 50%;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+    /* margin-left: 1vw; */
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    align-items: center;
+    /* margin-right: 5px; */
+}
+.box .one .sec .chaar p {
+    margin: 0; /* add margin: 0 to remove space above and below text */
+}
+
+
+
+.box .two{
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 300px;
+    width: 30%;
+    margin: 1vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: rgb(236, 236, 230);
+}
+
+.box .two .fir{
+    display: flex;
+    height: 150px;
+    flex : 0 0 50%;
+    /* background-color: brown; */
+    width: 33.3vw;
+    margin-right: 1vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box .two .sec{
+    display: flex;
+    height: 150px;
+    flex : 0 0 50%;
+    /* background-color: rgb(161, 4, 30); */
+    width: 33.3vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box .two .fir .ek{
+    display: flex;
+    flex : 0 0 50%;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+    margin-left: 1vw;
+    font-size: 20px;
+    color: green;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    margin-left: 2px;
+}
+.box .two .fir .ek p{
+    margin : 0;
+    }
+
+.box .two .fir .dho{
+    display: flex;
+    flex : 0 0 50%;
+    height: 50%;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    margin: 2vh;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.box .two .fir .dho::before{
+    display: flex;
+    content: "•••";
+    flex : 0 0 50%;
+    height: 50%;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    margin: 2vh;
+    align-items: center;
+    margin-left: 2px;
+}
+  
+
+.box .two .sec .teen{
+    display: flex;
+    flex : 0 0 50%;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+    margin-left: 1vw;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.box .two .sec .teen::before{
+    display: flex;
+    content: "•••";
+    flex : 0 0 50%;
+    height: 50%;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    margin: 2vh;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.box .two .sec .chaar{
+    display: flex;
+    flex : 0 0 50%;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+    margin-left: 1vw;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    align-items: center;
+    margin-left: 2px;
+}
+.box .two .sec .chaar p {
+    margin: 0; /* add margin: 0 to remove space above and below text */
+}
+
+
+.box .Three{
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 300px;
+    width: 30%;
+    margin: 1vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: rgb(236, 236, 230);
+}
+
+.box .Three .fir{
+    display: flex;
+    height: 150px;
+    flex : 0 0 50%;
+    /* background-color: brown; */
+    width: 33.3vw;
+    margin-right: 1vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box .Three .sec{
+    display: flex;
+    height: 150px;
+    flex : 0 0 50%;
+    /* background-color: rgb(161, 4, 30); */
+    width: 33.3vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box .Three .fir .ek{
+    display: flex;
+    flex : 0 0 50%;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+    color:green;
+    margin-left: 1vw;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    margin-left: 2px;
+}
+.box .Three .fir .ek p{
+    margin : 0;
+    }
+
+.box .Three .fir .dho{
+    display: flex;
+    flex : 0 0 50%;
+    height: 50%;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    margin: 2vh;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.box .Three .fir .dho::before{
+    display: flex;
+    content: "•••";
+    flex : 0 0 50%;
+    height: 50%;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    margin: 2vh;
+    align-items: center;
+    margin-left: 2px;
+}
+  
+
+.box .Three .sec .teen{
+    display: flex;
+    flex : 0 0 50%;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+    margin-left: 1vw;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.box .Three .sec .teen::before{
+    display: flex;
+    content: "•••";
+    flex : 0 0 50%;
+    height: 50%;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    margin: 2vh;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.box .Three .sec .chaar{
+    display: flex;
+    flex : 0 0 50%;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+    margin-left: 1vw;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    align-items: center;
+    margin-left: 2px;
+}
+.box .Three .sec .chaar p {
+    margin: 0; /* add margin: 0 to remove space above and below text */
+}
